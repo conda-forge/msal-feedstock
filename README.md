@@ -5,7 +5,7 @@ Home: https://github.com/AzureAD/microsoft-authentication-library-for-python
 
 Package license: MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Microsoft Authentication Library (MSAL) for Python makes it easy to authenticate to Azure Active Directory
 
