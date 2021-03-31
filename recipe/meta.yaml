@@ -11,7 +11,7 @@ source:
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
@@ -21,7 +21,7 @@ requirements:
   run:
     - python >=2.7.0
     - requests >=2.0.0,<3
-    - pyjwt >=1.0.0,<2
+    - pyjwt >=1.0.0,<3
     - cryptography >=0.6,<4
 
 test:
@@ -46,3 +46,4 @@ about:
 extra:
   recipe-maintainers:
     - roederja2
+    - dhirschfeld
