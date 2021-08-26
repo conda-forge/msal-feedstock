@@ -125,5 +125,6 @@ Feedstock Maintainers
 =====================
 
 * [@dhirschfeld](https://github.com/dhirschfeld/)
+* [@roederja](https://github.com/roederja/)
 * [@roederja2](https://github.com/roederja2/)
 
