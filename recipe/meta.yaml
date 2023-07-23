@@ -22,7 +22,7 @@ requirements:
     - python >=3.6
     - requests >=2.0.0,<3
     - pyjwt >=1.0.0,<3
-    - cryptography >=0.6,<43
+    - cryptography >=0.6,<44
 
 test:
   imports:
