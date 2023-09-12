@@ -1,5 +1,5 @@
 {% set name = "msal" %}
-{% set version = "1.23.0" %}
+{% set version = "1.24.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 25c9a33acf84301f93d1fdbe9f1a9c60cd38af0d5fffdbfa378138fc7bc1e86b
+  sha256: 7d2ecdad41a5f73bb2b813f3061a4cf47c924621105a8ed137586fcb9d8f827e
 
 build:
   noarch: python
@@ -20,9 +20,9 @@ requirements:
     - pip
   run:
     - python >=3.6
-    - requests >=2.0.0,<3
-    - pyjwt >=1.0.0,<3
-    - cryptography >=0.6,<44
+    - requests <3,>=2.0.0
+    - pyjwt <3,>=1.0.0
+    - cryptography <44,>=0.6
 
 test:
   imports:
