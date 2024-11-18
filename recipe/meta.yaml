@@ -1,5 +1,5 @@
 {% set name = "msal" %}
-{% set version = "1.31.0" %}
+{% set version = "1.31.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 2c4f189cf9cc8f00c80045f66d39b7c0f3ed45873fd3d1f2af9f22db2e12ff4b
+  sha256: 11b5e6a3f802ffd3a72107203e20c4eac6ef53401961b880af2835b723d80578
 
 build:
   noarch: python
