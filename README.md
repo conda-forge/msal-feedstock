@@ -41,14 +41,14 @@ Current release info
 Installing msal
 ===============
 
-Installing `msal` from the `conda-forge` channel can be achieved by adding `conda-forge` to your channels with:
+Installing `msal` from the `conda-forge/label/msal_rc` channel can be achieved by adding `conda-forge/label/msal_rc` to your channels with:
 
 ```
-conda config --add channels conda-forge
+conda config --add channels conda-forge/label/msal_rc
 conda config --set channel_priority strict
 ```
 
-Once the `conda-forge` channel has been enabled, `msal` can be installed with `conda`:
+Once the `conda-forge/label/msal_rc` channel has been enabled, `msal` can be installed with `conda`:
 
 ```
 conda install msal
@@ -63,26 +63,26 @@ mamba install msal
 It is possible to list all of the versions of `msal` available on your platform with `conda`:
 
 ```
-conda search msal --channel conda-forge
+conda search msal --channel conda-forge/label/msal_rc
 ```
 
 or with `mamba`:
 
 ```
-mamba search msal --channel conda-forge
+mamba search msal --channel conda-forge/label/msal_rc
 ```
 
 Alternatively, `mamba repoquery` may provide more information:
 
 ```
 # Search all versions available on your platform:
-mamba repoquery search msal --channel conda-forge
+mamba repoquery search msal --channel conda-forge/label/msal_rc
 
 # List packages depending on `msal`:
-mamba repoquery whoneeds msal --channel conda-forge
+mamba repoquery whoneeds msal --channel conda-forge/label/msal_rc
 
 # List dependencies of `msal`:
-mamba repoquery depends msal --channel conda-forge
+mamba repoquery depends msal --channel conda-forge/label/msal_rc
 ```
 
 
@@ -153,5 +153,6 @@ Feedstock Maintainers
 =====================
 
 * [@dhirschfeld](https://github.com/dhirschfeld/)
+* [@janjagusch](https://github.com/janjagusch/)
 * [@roederja](https://github.com/roederja/)
 
