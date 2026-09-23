@@ -1,5 +1,5 @@
 {% set name = "msal" %}
-{% set version = "1.38.0" %}
+{% set version = "1.39.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 4f10ff1257bacfd1781f22e85bd2b8d43ad1b490f3b6aafd7906671cadedd464
+  sha256: 6ab7de335e6d7f5717e2c7e1dbf86e4dda2f6acf3c56773b78dc53ebc6395b5f
 
 build:
   noarch: python
